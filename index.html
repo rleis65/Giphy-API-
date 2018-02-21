@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gif Grabber</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header  -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Fetch-a-Gif</h1>
+        </div>
+    </div>
+    <!-- Buttons  -->
+    <div id="gifButtonsView" class="container">
+    </div>
+     <!-- Main Container  -->
+    <div class="container">
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+            <!-- Gifs  -->
+            <div id="gifsView"></div>
+        </div>
+         <!-- Submission Form  -->
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <form id="gif-form" role="form">
+                <h2>ADD YOUR GIF</h2>
+                <div class="form-group">
+                    <label for="action-input">Search For GIFs</label>
+                    <input type="text" id="action-input">
+                </div>
+                <input id="addGif" type="submit" value="Add GIF" class="btn btn-primary">
+                <input id="removeGif" type="submit" value="Remove last GIF" class="btn btn-primary">
+            </form>    
+        </div>
+    </div>
+    <footer>
+        <div id="footer" class="container">
+            <h4 id="copyright">&copy; 2018 Ryan Leis</h4>
+        </div>
+    </footer>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>

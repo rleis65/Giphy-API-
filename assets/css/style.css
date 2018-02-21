@@ -1,0 +1,52 @@
+body{
+	background: url("../images/BlurBackground.jpg");
+	background-size: 100%;
+    
+    color: rgb(48, 230, 184);
+    font-family: 'Bellefair', serif;
+
+}
+* {
+	box-sizing: border-box;
+}
+img { 
+    height: 100%;
+    width: 100%;
+}
+.btn {
+    
+    margin: 3px;
+    background-color: rgb(48, 230, 184);
+    border-color: #fff;
+}
+
+
+
+.gifDiv{
+    /* making the images go in one line rather than block & adding spacing between the images*/
+    float: left;
+    margin: 3px;
+}
+.container {
+	background-color: #fff;
+	opacity: 0.8;
+	padding: 20px;
+}
+.jumbotron {
+    background-color: inherit;
+}
+.jumbotron .h1, .jumbotron h1 {
+    text-align: center;
+}
+#copyright{
+	font-size: 18px;
+}
+div#footer {
+	clear: both;
+	margin-top: 40px;
+	position: center;
+	bottom: 0;
+	left: 0;
+    text-align: center;
+    background: #fff;
+}
